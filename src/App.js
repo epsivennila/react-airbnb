@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import Navbar from './components/navbar';
 import Hero from './components/hero'
 import Card from './components/card'
+import Joke from './components/jokes';
 // import './App.css';
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
       </header> */}
       <Navbar />
       <Hero />
-      <Card />
+      <Joke />
     </div>
   );
 }
